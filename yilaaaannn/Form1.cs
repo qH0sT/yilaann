@@ -158,7 +158,7 @@ namespace yilaaaannn
                 timer2.Stop();
                 MessageBox.Show("Yandınız!!", "Yılan oyunu");
             }
-            else if (sonucX <= Convert.ToInt32(numericUpDown1.Value) || sonuxY <= Convert.ToInt32(numericUpDown1.Value)) //Yem yedik mi ? tam koordinat vermiyorum, yaklaşık kalan 1 olsa yeter.
+            else if (sonucX <= Convert.ToInt32(numericUpDown1.Value) || sonuxY <= Convert.ToInt32(numericUpDown1.Value)) //Yem yedik mi ? tam koordinat vermiyorum, yaklaşık olsa yeter.
             {
                 puan += 1;
                 label1.Text = "Puan: " + puan.ToString();
